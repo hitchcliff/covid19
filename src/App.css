@@ -1,38 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-weight: 1.2rem;
+}
+
+:root {
+    --red: #ea4c4f;
+    --green: #32ca04;
+    --blue: #0a6ca1;
+    --white: #f5f5f5;
+    --gray: #555;
+    --recovered:#2cbb01;
+    --deaths: #e60105;
+    --confirmed: #007bbd;
+    --lightgray: #f2efe9;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .App {
-  text-align: center;
+    background-color: var(--white);
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App__container-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App__container-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+/* CHARTJS
+============================ */
+
+.chartjs-size-monitor {
+    width: 100% !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chartjs-size-monitor canvas {
+    padding-right: 10px;
 }
+
+/* h6
+============================ */
+
+.Deaths h6 {
+    border-bottom: 2px solid var(--red);
+}
+
+.Recovered h6 {
+    border-bottom: 2px solid var(--green);
+}
+.Cases h6 {
+    border-bottom: 2px solid var(--blue);
+}
+
+/* SVG
+============================ */
+
+.Deaths svg,
+.Cases svg,
+.Recovered svg,
+.Confirmed svg{
+    margin-right: 10px;
+}
+
+h6 svg {
+    margin-right: 10px;
+}
+
+.Deaths svg {
+    color: var(--red);
+}
+
+.Cases svg {
+    color: var(--blue);
+}
+
+.Recovered svg {
+    color: var(--green);
+}
+
+/* LEAFLET
+============================ */
+.leaflet-container {
+    width: 100%;
+    min-height: 412px;
+    height: 100vh;
+}
+
+/* .LeafletMap_container__3aado {
+    height: auto !important;
+} */
+
+.popup {
+    text-align: center;
+}
+
+.img-popup {
+    width: 100%;
+    text-align: center;
+}
+
+.country {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.total {
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+}
+

@@ -1,0 +1,30 @@
+.container {
+    width: 70%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.heading h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 8px;
+}
+
+.heading svg {
+    margin-right: 10px;
+}
+
+.option {
+    background: none;
+    border: none;
+    margin-left: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}

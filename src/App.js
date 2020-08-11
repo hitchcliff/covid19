@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import {TotalBox, LeafletMap, Rate, Country, WorldTotal} from './components'
+
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App__container">
+        <div className="App__container-1">
+          <TotalBox></TotalBox>
+          <Rate></Rate>
+        </div>
+        <div className="App__container-2">
+          <LeafletMap ></LeafletMap>
+          <Country></Country>
+        </div>
+        <div className="App__container-3">
+          Donation
+        </div>
+      </div>
+    </div>  
   );
 }
 

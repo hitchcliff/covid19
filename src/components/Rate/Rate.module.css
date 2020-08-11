@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.graph {
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.graph canvas {
+
+    display: inline;
+}
+
+
+.graph h2 {
+    margin: 20px 0;
+}

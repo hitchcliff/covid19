@@ -1,0 +1,5 @@
+export {default as TotalBox} from './TotalBox/TotalBox'
+export {default as LeafletMap} from './LeafletMap/LeafletMap'
+export {default as Rate} from './Rate/Rate'
+export {default as Country} from './Country/Country'
+export {default as WorldTotal} from './WorldTotal/WorldTotal'

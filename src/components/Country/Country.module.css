@@ -1,0 +1,56 @@
+.container {
+    width: 30%;
+    
+}
+
+.lists {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    height: 380px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--green);
+    border-radius: 10px;
+    
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: var(--white) 
+    
+}
+
+.container h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.countries {
+    width: 100%;
+}
+
+.countries tr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.countries tr:nth-child(odd) {
+    background-color: var(--white);
+}
+
+.countries tr {
+    padding: 10px;
+}
+
+.countries td {
+    font-size: .8rem;
+}
+
+
