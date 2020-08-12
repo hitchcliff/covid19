@@ -106,3 +106,7 @@ export const numberInDescendingOrder = (data) => {
     
     return final;
 }
+
+export const numeralFormat = (num) => {
+    return numeral(num).format('0,0')
+}

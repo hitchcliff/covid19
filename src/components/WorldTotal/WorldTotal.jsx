@@ -2,7 +2,8 @@ import React, { useEffect } from 'react'
 import styles from './WorldTotal.module.css'
 import { useSelector, useDispatch } from 'react-redux'
 import {getWorldwideData} from '../../action'
-import numeral from 'numeral'
+
+import {numeralFormat} from '../../util'
 
 const WorldTotal = () => {
     const worldwide = useSelector(state => state.worldwide)
@@ -15,10 +16,7 @@ const WorldTotal = () => {
         dispatch(getWorldwideData())
         
     }, [])
-    console.log(worldwide)
-    const numeralFormat = (num) => {
-        return numeral(num).format('0,0')
-    }
+    
     return (
         <div className={styles.container}>
             <div className={styles.total}>

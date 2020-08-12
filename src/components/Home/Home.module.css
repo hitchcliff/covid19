@@ -1,0 +1,301 @@
+.container {
+    height: 80vh;
+    width: 100%;
+    background-color: #002b47;
+}
+
+/* SHOWCASE
+========================= */
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.showcase span {
+    font-size: .9rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.showcase .active {
+    color: var(--red);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.showcase__heading {
+    color: white;
+}
+
+.showcase__button {
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--red);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* HOW TO SAVE LIVES
+========================= */
+.guideContainer {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    
+}
+
+.guideContainer img {
+    width: 50%;
+}
+
+.guide {
+    width: 100%;
+}
+
+.guide__heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--green);
+}
+
+.guide__lists li{
+    line-height: 1.2rem;
+    font-size: 1rem;
+    position: relative;
+    margin: 5px 0;
+    margin-left: 20px;
+}
+
+.guide__lists li::before {
+    content: "✔";
+    position: absolute;
+    top: 30%;
+    left: -20px;
+
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    color: var(--green);
+}
+
+.guide__button {
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    
+    background-color: var(--red);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.guide__button a {
+    color: var(--white);
+}
+
+/* REMINDERS
+========================= */
+.world {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.worldReminder {
+    margin-left: 20px;
+    width: 50%;
+}
+
+.world__heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--green);
+}
+
+.world__link {
+    text-decoration: none;
+    color: var(--red);
+    font-size: .9rem;
+    border-bottom: 1px solid var(--red);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* DONATION
+========================= */
+.donation {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    margin-bottom: 150px;
+}
+.donationContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.donationContainer .left {
+    width: 70%;
+}
+
+.donationContainer .right {
+    margin-left: auto;
+}
+
+.right__button {
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--green);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.donation__heading {
+    color: var(--green);
+    margin-bottom: 10px;
+}
+
+.left p {
+    font-size: .9rem;
+}
+
+/* GRAPH
+========================= */
+
+.graphContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.map {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+@media(max-width: 940px) {
+    .guideContainer {
+        flex-wrap: wrap;
+        
+    }
+
+    .guideContainer img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .guide__heading {
+        font-size: 1.5rem;
+    }
+} 
+
+@media(max-width: 1000px) {
+    .world {
+        flex-wrap: wrap;
+    }
+
+    .worldReminder {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 980px) {
+    .donationContainer {
+        flex-wrap: wrap;
+    }
+
+    .donationContainer .right {
+        margin: 0;
+    }
+
+    .donationContainer .left {
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .showcase span {
+        font-size: .5rem;
+    }
+    .showcase__heading {
+        font-size: 1.3rem;
+    }
+
+    .showcase .active {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media(max-width: 400px) {
+    h2 {
+        font-size: 1.3rem !important;
+    }
+
+    p, span {
+        font-size: .7rem !important;
+    }
+
+    .world {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .graphContainer {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .donation {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .map {
+        flex-wrap: wrap;
+    }
+
+    
+    
+}

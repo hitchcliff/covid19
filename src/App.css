@@ -30,10 +30,6 @@ ul {
     list-style-type: none;
 }
 
-.App {
-    background-color: var(--white);
-    
-}
 
 .App__container {
     display: flex;
@@ -114,8 +110,8 @@ h6 svg {
 ============================ */
 .leaflet-container {
     width: 100%;
-    min-height: 412px;
-    height: 100vh;
+    min-height: 400px;
+    height: 60vh;
 }
 
 /* .LeafletMap_container__3aado {
@@ -143,3 +139,8 @@ h6 svg {
     text-align: center;
 }
 
+.dividier {
+    padding: 15px;
+    text-align: center;
+    background-color: var(--green);
+}

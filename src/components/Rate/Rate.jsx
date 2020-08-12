@@ -12,7 +12,7 @@ import {forceIterateState, findColor, DateAndValueFormatter, textCapitalizeForma
 const Rate = () => {
     const [option, setOption] = useState({})
     const [data, setData] = useState({})
-    const [value, setValue] = useState(60)
+    const value = 60;
 
     const [select, setSelect] = useState("Cases");
     const [finalDate, setFinalStoreDate] = useState([])
@@ -97,7 +97,12 @@ const Rate = () => {
                         <option value="deaths">Deaths</option>
                     </select>
                 </div>
-                <Bar options={option} data={data}></Bar>
+                <div className={styles.graphContainer}>
+                    <Bar options={option} data={data}></Bar>
+                    <div className={styles.graphContainer__block}>
+
+                    </div>
+                </div>
             </div>
             
         </div>
