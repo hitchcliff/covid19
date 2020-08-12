@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/covid-19/static/css/main.a128f988.chunk.css",
-    "main.js": "/covid-19/static/js/main.89dcfb4b.chunk.js",
-    "main.js.map": "/covid-19/static/js/main.89dcfb4b.chunk.js.map",
-    "runtime-main.js": "/covid-19/static/js/runtime-main.d4e8d724.js",
-    "runtime-main.js.map": "/covid-19/static/js/runtime-main.d4e8d724.js.map",
-    "static/js/2.8759b854.chunk.js": "/covid-19/static/js/2.8759b854.chunk.js",
-    "static/js/2.8759b854.chunk.js.map": "/covid-19/static/js/2.8759b854.chunk.js.map",
-    "index.html": "/covid-19/index.html",
-    "precache-manifest.dcdb578b5c98caf7b2ee925868a6b74b.js": "/covid-19/precache-manifest.dcdb578b5c98caf7b2ee925868a6b74b.js",
-    "service-worker.js": "/covid-19/service-worker.js",
-    "static/css/main.a128f988.chunk.css.map": "/covid-19/static/css/main.a128f988.chunk.css.map",
-    "static/js/2.8759b854.chunk.js.LICENSE.txt": "/covid-19/static/js/2.8759b854.chunk.js.LICENSE.txt",
-    "static/media/notify.svg": "/covid-19/static/media/notify.58ccc6ac.svg"
+    "main.css": "/covid19/static/css/main.a128f988.chunk.css",
+    "main.js": "/covid19/static/js/main.89dcfb4b.chunk.js",
+    "main.js.map": "/covid19/static/js/main.89dcfb4b.chunk.js.map",
+    "runtime-main.js": "/covid19/static/js/runtime-main.3c80ee47.js",
+    "runtime-main.js.map": "/covid19/static/js/runtime-main.3c80ee47.js.map",
+    "static/js/2.50441b2f.chunk.js": "/covid19/static/js/2.50441b2f.chunk.js",
+    "static/js/2.50441b2f.chunk.js.map": "/covid19/static/js/2.50441b2f.chunk.js.map",
+    "index.html": "/covid19/index.html",
+    "precache-manifest.1470f007077bb2e26d42f8745e1c3201.js": "/covid19/precache-manifest.1470f007077bb2e26d42f8745e1c3201.js",
+    "service-worker.js": "/covid19/service-worker.js",
+    "static/css/main.a128f988.chunk.css.map": "/covid19/static/css/main.a128f988.chunk.css.map",
+    "static/js/2.50441b2f.chunk.js.LICENSE.txt": "/covid19/static/js/2.50441b2f.chunk.js.LICENSE.txt",
+    "static/media/notify.svg": "/covid19/static/media/notify.58ccc6ac.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4e8d724.js",
-    "static/js/2.8759b854.chunk.js",
+    "static/js/runtime-main.3c80ee47.js",
+    "static/js/2.50441b2f.chunk.js",
     "static/css/main.a128f988.chunk.css",
     "static/js/main.89dcfb4b.chunk.js"
   ]
